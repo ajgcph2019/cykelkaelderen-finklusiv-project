@@ -1,14 +1,16 @@
 import React from "react";
-import Services from "./Services";
-import Map from "./Map";
-import Contacts from "./Contacts";
+import Banner from "./Banner";
+import Products from "./Products";
+import Aboutus from "./Aboutus";
+import Visitus from "./Visitus";
 
 function App() {
   return (
     <main>
-      <Services />
-      <Map />
-      <Contacts />
+      <Banner />
+      <Products />
+      <Visitus />
+      <Aboutus />
     </main>
   );
 }

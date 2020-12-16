@@ -1,12 +1,16 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+import Header from "./components/Header";
 import Homepage from "./components/Homepage";
+import Footer from "./components/Footer";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 function App() {
   return (
     <>
-     <Homepage/>
+      <Header />
+      <Homepage />
+      <Footer />
     </>
   );
 }

@@ -3,9 +3,8 @@ import logo from "./../assets/images/logo.jpg";
 import { Navbar, Nav} from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../App.css";
-// import Iframe from "react-iframe";
 
-function App() {
+function Header() {
   return (
     <>
       <header>
@@ -13,25 +12,24 @@ function App() {
           <Navbar.Brand href="#home" className="pb-0">
             <img src={logo} className="App-logo" alt="Cykelkaelderen-logo" />
           </Navbar.Brand>
-          
           <Navbar.Toggle aria-controls="basic-navbar-nav " />
-          {/* <p>Cykelkaelderen-Bicycle Shop</p> */}
           <Navbar.Collapse
             id="basic-navbar-nav"
             className="justify-content-end"
           >
-            <Nav>
+            <Nav>        
+    <div class="pull-left">Cykelkaelderen-Bicycle Shop</div>
+              
               <Nav.Link href="#home">Forside</Nav.Link>
-              <Nav.Link href="#Our-Products">Service</Nav.Link>
-              <Nav.Link href="#Visit-Us">Visit Us</Nav.Link>
-              <Nav.Link href="#About-Us">About Us</Nav.Link>
+              <Nav.Link href="#content">Service</Nav.Link>
+              <Nav.Link href="#Visit-Us">Besøg Os</Nav.Link>
+              <Nav.Link href="#About-Us">Om Os</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
       </header>
-
     </>
   );
 }
 
-export default App;
+export default Header;
