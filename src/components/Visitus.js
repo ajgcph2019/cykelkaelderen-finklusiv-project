@@ -9,9 +9,21 @@ import {AiTwotonePlusCircle} from "react-icons/ai";
 
 function VisitUs() {
   return (
-      <div className="contact-container">
+    <section id="Visit-Us" >    
+    <div className="box-cont" > 
+    <h3 className="mb-4 text-center">Besøg Os</h3>     
+      <p className="mb-4 text-center">
+          Besøg os på Cyklekaelderen, hvor kunden er altid i 
+          centrum. Vi glæder os at giver dig første klasse service     
+      </p>
+    </div>     
+    
+    <div className="contact-container" >    
+        
+    <div className="map-section">
         <Map className="map"/>
-        <div className="cont">
+        </div>
+        <div className="contact-section">
           <div>
             <div className="contact-info">
              < GiHouse size="3em" color="brown"/> 
@@ -61,8 +73,8 @@ function VisitUs() {
             </div>
           </div>
         </div>
-      </div>
-    
+      </div>      
+      </section>
   );
 }
 
