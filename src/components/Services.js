@@ -13,7 +13,7 @@ import arrow3 from "../assets/images/arrow3.png";
 function Services() {
   return (
     <section id="content" className="content-container">
-     <p>Cykel-reparation og service i topklasse !</p>
+    <h5 className="mb-4 pt-4 text-center">Cykel-reparation og service i topklasse !</h5>
      <div className="images-content">
         <div className="img-item">
           <img src={`${arrow1}`} alt="arrow1" />
@@ -39,7 +39,7 @@ function Services() {
       </div>
 
       <div className="box-cont">
-        <p>
+      <p className="mb-4 text-center">
            Vi ved du har brug for, at din cykel er klar,
             når du skal bruge den. Derfor reparerer vi din cykel
             imens du er på arbejde / i skole, så den er klar til
