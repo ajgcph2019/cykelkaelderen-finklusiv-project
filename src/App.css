@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+
+  height: 14vh;
+  width: auto;
+  pointer-events: none;
+  padding: 5px;
+  border-radius: 60%; 
+}
+
+main{
+  width:100%;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(212, 182, 137);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.pull-left{
+  padding-top:3rem;
+  position: relative;
+  float:left;
+  color:black;
+  margin-right:27rem;
+  padding-right:11rem;
+
+}
+
+
+.sticky-top {
+    position: sticky;
+    margin: 0px;
+    z-index: 1020;
+    background-color: #edeeec;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:#8f2634;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding-right:4px;
+}
+
+.FaFacebook {
+  color:  rgb(131, 17, 17);
+  size:6px;
+
+}
+
+.nav-link:hover {
+    color:blue;
+}
+
+
+
+.bannerarea {
+  
+  position: relative;
+  
+  text-align: center;
+  width:100%;
+  color: white;
+  
+  font-family: "Montserrat", sans-serif;
+}
+
+.wallpaper{
+  width:100%;
+}
+
+.firstText {
+  position: absolute;
+  margin-top:30px;
+  top: 45%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+  font-weight: 700;
+  animation: text-animate 6s linear forwards; 
+}
+
+.secondText {
+  position: absolute;
+  top: 42%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  font-size: 33px;
+  font-weight: 700;
+  animation: text-animate 6s linear forwards;
+}
+
+.arrow {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  position: relative;
+}
+
+.footer {
+  margin:auto;
+  background-color: #858688;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.bgdark {
+  background: #f5ecec;
+  font-size: 1.2rem;
+}
+
+.images-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.img-item {
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.img-item img {
+  width: 350px;
+  height: 350px;
+  padding: 15px;
+  transform-origin: 30% 45%;
+  transition: transform 5s, filter 3s ease-in-out;
+}
+.img-item:hover img {
+  transform: scale(1.15);
+}
+.box-cont p {
+  text-align: center;
+  line-height: 1.5em;
+  margin: 0 auto;
+  width: 70%;
+}
+
+#Visit-Us {
+  margin: 0 auto;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#Visit-Us h2 {
+  font-size: 30px;
+  text-shadow: 2px 2px #d07f8a;
+  padding-bottom: 20px;
+}
+
+div.contact-container {
+  display: flex;
+  
+}
+
+.map{
+  flex-basis:70%;
+  flex-shrink: 0;
+}
+
+.cont {
+  width:30%;
+  padding-left:20px;
+  padding-top:14%;
+  display: flex;
+}
+.contact-info {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.contact-info img {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+}
+.contact-info p {
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+.contactDetails{
+  color: rgb(75, 72, 240);
+}
+
+
+.CVR{
+  position: relative;
+}
+
+.inner-num {
+  position:absolute;  
+  margin-left:1%;
+  text-align:center;
+  color:white;
+}
+.contact-info a:hover {
+  transition: 1s;
+  color: #0839a1;
+  text-decoration: underline;
+}
+
+.aboutusImage{
+  border-radius: 2%;
+  border: 1px Solid;
+  box-shadow: 10px 10px rgb(133, 4, 4);
+  margin: 1px;
+  padding:1px;
+  width:97%;
+}
+
+.footer span {
+  padding: 5px;
+  font: 13px "lato", sans-serif;
+  text-align: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #bfeced;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: #ff0;
+}
+
+
+
+@media screen and (max-width: 400px) {
+  div.firstText {
+     
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  div.firstText {
+      
+    font-size:20px;
+  }
+} 
+
+@media screen and (max-width: 650px) {
+  div.firstText { 
+    font-size:20px;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  div.firstText { 
+    font-size:20px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+.pull-left{
+  padding-top:3rem;
+  position: relative;
+  float:left;
+  color:black;
+  margin-right:4rem;
+
+}
+}
+
+@media (min-width: 880px) {
+.navbar-expand-lg .navbar-nav .nav-link {
+  
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+}
+
+@media screen and (max-width: 900px) {
+  div.contact-container {
+    flex-direction: column;
+  }
+}
