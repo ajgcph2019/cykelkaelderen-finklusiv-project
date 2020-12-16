@@ -141,14 +141,9 @@ main{
   border-radius: 15px;
 }
 .img-item img {
-<<<<<<< HEAD
-  width: 300px;
-  height: 300px;
-=======
   width: 350px;
   height: 350px;
   padding: 15px;
->>>>>>> 1a5c6ee6622d55d46896ff532dc6828a94f20d60
   transform-origin: 30% 45%;
   transition: transform 5s, filter 3s ease-in-out;
 }
