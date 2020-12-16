@@ -117,7 +117,6 @@ main {
 
 .bgdark {
   background: #f5ecec;
-  /*font-size: 1.2rem;*/
 }
 
 .images-content {
@@ -161,9 +160,6 @@ main {
 #Visit-Us {
   margin: 0 auto;
   padding-top: 50px;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;*/
 }
 #Visit-Us h3,
 #About-Us h3 {
@@ -296,7 +292,7 @@ a :hover {
 }
 
 @media screen and (max-width: 900px) {
-  div.contact-container {
+  div.contact-container,.images-content {
     flex-direction: column;
   }
 }
