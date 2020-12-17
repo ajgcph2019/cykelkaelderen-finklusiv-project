@@ -19,8 +19,8 @@ function Header() {
           >
           
             <Nav>                     
-              <Nav.Link href="#home">Forside</Nav.Link>
-              <Nav.Link href="#content">Service</Nav.Link>
+              <Nav.Link href="#Home">Forside</Nav.Link>
+              <Nav.Link href="#Services">Services</Nav.Link>
               <Nav.Link href="#Visit-Us">Besøg Os</Nav.Link>
               <Nav.Link href="#About-Us">Om Os</Nav.Link>
             </Nav>

@@ -12,9 +12,10 @@ import arrow3 from "../assets/images/arrow3.png";
 
 function Services() {
   return (
-    <section id="content" className="content-container">    
+    <section id="Services" className="content-container">    
     <div className="box-cont">
-      <h5 className="mb-4 pt-4 text-center">Cykel-reparation og service i topklasse!</h5>
+    <h3 className="mb-4 text-center">Services</h3>  
+      <p className="mb-4 text-center">Cykel-reparation og service i topklasse!</p>
       <p className="mb-4 text-center">
       Vi ved du har brug for, at din cykel er klar,
       når du skal bruge den. Derfor reparerer vi din
