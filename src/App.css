@@ -26,6 +26,60 @@ p {
 main {
   width: 100%;
 }
+ .wallpaper {
+  width: 100%;
+  background-position: center center; 
+  background-attachment: fixed; 
+  background-repeat: no-repeat; background-size: cover;
+} 
+.bannerarea ::before {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.28);
+}
+.firstText span {
+  position: relative;
+  margin-top: 30px;
+  top: 35%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  animation: text-animate 6s linear forwards;
+}
+@keyframes text-animate {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.firstText p span:nth-child(1) {
+  animation-delay: 0s;
+}
+.firstText p span:nth-child(2) {
+  animation-delay: 0.5s;
+}
+.firstText p span:nth-child(3) {
+  animation-delay: 1s;
+}
+.firstText p span:nth-child(4) {
+  animation-delay: 1.5s;
+}
+.firstText p span:nth-child(5) {
+  animation-delay: 2s;
+}
+.firstText p span:nth-child(6) {
+  animation-delay: 2.5s;
+}
+.firstText p span:nth-child(7) {
+  animation-delay: 3s;
+}
 
 .App-header {
   background-color: #282c34;
@@ -171,7 +225,13 @@ main {
 div.contact-container {
   display: flex;
 }
+.bannerarea {
+    background-position: center center; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat; background-size: cover; 
+   
 
+}
 .map {
   flex-basis: 70%;
   flex-shrink: 0;
@@ -263,13 +323,12 @@ a :hover {
 }
 
 @media screen and (max-width: 650px) {
-  div.firstText {
-    font-size: 20px;
+ 
+  .bannerarea{
+    background-image: url("./assets/images/banner.jpg");
   }
-}
-
-@media screen and (max-width: 650px) {
-  div.firstText {
+ 
+  .firstText span {
     font-size: 20px;
   }
 }

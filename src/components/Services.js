@@ -14,12 +14,12 @@ function Services() {
   return (
     <section id="content" className="content-container">    
     <div className="box-cont">
-      <h5 className="mb-4 pt-4 text-center">Cykel-reparation og service i topklasse !</h5>
+      <h5 className="mb-4 pt-4 text-center">Cykel-reparation og service i topklasse!</h5>
       <p className="mb-4 text-center">
-           Vi ved du har brug for, at din cykel er klar,
-            når du skal bruge den. Derfor reparerer vi din cykel
-            imens du er på arbejde / i skole, så den er klar til
-            brug, så snart  har fri.         
+      Vi ved du har brug for, at din cykel er klar,
+      når du skal bruge den. Derfor reparerer vi din
+      cykel imens du er på arbejde eller i skole,
+      så den er klar til brug, så snart  har fri.      
       </p>
     </div>
      <div className="images-content">
