@@ -10,7 +10,7 @@ function Aboutus() {
         <Row>
           <Col xs={12} md={5} lg={6} className="mt-3 mr-5">
             <p>
-              <strong>Sher Ahmad Safi</strong> har flere års erfaring med
+              <strong>Sheramad Safi</strong> har flere års erfaring med
                reparation af cykler og havde derfor en solidt fundament af
                 erfaring at bygge på, da han overtog Cykel Kælderen.
             </p>

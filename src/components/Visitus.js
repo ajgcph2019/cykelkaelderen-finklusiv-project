@@ -13,8 +13,7 @@ function VisitUs() {
     <div className="box-cont" > 
     <h3 className="mb-4 text-center">Besøg Os</h3>     
       <p className="mb-4 text-center">
-          Besøg os på Cykelkælderen, hvor kunden er altid i 
-          centrum. Vi glæder os at giver dig første klasse service     
+      Besøg os på Cykelkælderen, hvor kunden altid er i centrum.    
       </p>
     </div>     
     
