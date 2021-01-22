@@ -16,7 +16,7 @@ function Aboutus() {
             </p>
             <p>
               Tilfredse kunder, god service og høj kvalitet er vigtig for 
-              Sherahmad.
+              Sheramad.
             </p>
             <p>
               Har du brug for et godt råd vedrørende reparation af din cykel,
