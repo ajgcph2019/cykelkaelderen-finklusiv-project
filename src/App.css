@@ -189,7 +189,7 @@ main {
 }
 .img-item img {
   width: 300px;
-  height: 270px;
+  height: 350px;
   padding: 15px;
   transform-origin: 30% 45%;
   transition: transform 5s, filter 3s ease-in-out;
@@ -198,8 +198,8 @@ main {
   transform: scale(1.15);
 }
 .arrow-img img {
-  width: 230px;
-  height: 230px;
+  width: 250px;
+  height: 250px;
   padding: 15px;
   transform-origin: 30% 45%;
   transition: transform 5s, filter 3s ease-in-out;
@@ -383,7 +383,7 @@ a :hover {
   }
   .contact-section {
     width: 35%;
-    margin: 15px;
+    margin: 30px;
     padding-left: 20px;
   }
   
