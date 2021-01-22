@@ -62,8 +62,11 @@ function VisitUs() {
             <div className="contact-info">
               < AiOutlineFieldTime size="3em" color="brown"/>
 
-              <p className="contactDetails">08.00 - 18.00</p>
+              <p className="contactDetails">09-18 (weekdays)</p>
+            {/* <p> 09-15 (Saturdays), Sundays (closed)</p> */}
             </div>
+        
+             
             <div className="contact-info">
               < AiTwotonePlusCircle className="CVR" size="3em" color="brown"/>
                <span class="inner-num">CVR</span>
