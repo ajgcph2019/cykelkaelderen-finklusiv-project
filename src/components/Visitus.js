@@ -10,22 +10,23 @@ import {AiTwotonePlusCircle} from "react-icons/ai";
 function VisitUs() {
   return (
     <section id="Visit-Us" >    
-    <div className="box-cont" > 
-    <h3 className="mb-4 text-center">Besøg Os</h3>     
-      <p className="mb-4 text-center">
-      Besøg os på Cykelkælderen, hvor kunden altid er i centrum.    
-      </p>
-    </div>     
+      <div className="box-cont" > 
+        <h3 className="mb-4 text-center">Besøg Os</h3>     
+        <p className="mb-4 text-center">
+           Besøg os på Cykelkælderen, hvor kunden altid er i centrum.    
+        </p>
+      </div>     
     
-    <div className="contact-container" >    
-        
-    <div className="map-section">
-        <Map className="map"/>
+      <div className="contact-container" >           
+        <div className="map-section">
+          <Map className="map"/>
         </div>
         <div className="contact-section">
           <div>
             <div className="contact-info">
-             < GiHouse size="3em" color="brown"/> 
+              <div>
+                <GiHouse size="3em" color="brown"/> 
+              </div>
               <a
                 href="https://goo.gl/maps/xfrLaboa7w7XAq9r5?share"
                 target="_blank"
@@ -36,7 +37,9 @@ function VisitUs() {
             </div>
 
             <div className="contact-info">
-             < FaFacebook size="3em" color="brown"/>
+              <div>
+                <FaFacebook size="3em" color="brown"/>
+              </div>
               <a
                 href="https://www.facebook.com/Cykelkaelderen "
                 target="_blank"
@@ -47,37 +50,40 @@ function VisitUs() {
             </div>
 
             <div className="contact-info">
-              < HiMail size="3em" color="brown"/>
+              <div>
+                <HiMail size="3em" color="brown"/>
+              </div>
               <a href="mailto:shersafi4000@yahoo.com?subject=Inquiry about products">
                 <p>shersafi4000@yahoo.com</p>
               </a>
             </div>
           
             <div className="contact-info">
-              < FiPhoneCall size="3em" color="brown"/>
-
-              <p className="contactDetails">+46 32 12 13 </p>
+              <div>
+                <FiPhoneCall size="3em" color="brown"/>
+              </div>
+              <p>+46 32 12 13 </p>
             </div>
 
             <div className="contact-info">
-              < AiOutlineFieldTime size="3em" color="brown"/>
-
-              <p className="contactDetails">09-18 (weekdays)</p>
-            {/* <p> 09-15 (Saturdays), Sundays (closed)</p> */}
+              <div>
+                <AiOutlineFieldTime size="3em" color="brown"/>
+              </div>      
+              <p>09-18 (weekdays), 09-15 (Saturdays), Sundays (closed)</p>            
             </div>
         
              
             <div className="contact-info">
-              < AiTwotonePlusCircle className="CVR" size="3em" color="brown"/>
-               <span class="inner-num">CVR</span>
-
-              <p className="contactDetails"> 38176587</p>
+              <div className="CVR">
+                <AiTwotonePlusCircle  size="3em" color="brown"/> 
+                <span class="inner-num">CVR</span>                               
+              </div>              
+              <p> 38176587</p>
             </div>
           </div>
-        </div>
-      </div>      
-      </section>
+      </div>
+    </div>      
+  </section>
   );
 }
-
 export default VisitUs;
