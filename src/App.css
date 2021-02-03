@@ -372,9 +372,9 @@ a :hover {
     padding-right: 5px;
     display: flex;
   }  
-  .images-content{
+  /*.images-content{
     flex-direction: column;
-  }
+  }*/
 }
 
 @media (min-width: 880px) {
