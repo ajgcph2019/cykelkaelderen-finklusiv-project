@@ -3,7 +3,7 @@ import { Container} from "react-bootstrap";
 
 function Footer() {
   return (
-      <footer>
+    <footer>
         
         <section className="footer">
           <Container className="text-center pt-3 pb-3">
@@ -60,7 +60,7 @@ function Footer() {
       </div>
       </Container>
     </section>
-      </footer>
+  </footer>
   );
 }
 

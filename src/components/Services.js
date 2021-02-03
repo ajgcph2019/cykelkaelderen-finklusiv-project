@@ -2,12 +2,10 @@ import React from "react";
 import product1 from "../assets/images/product1.jpg";
 import product6 from "../assets/images/product6.jpeg";
 import product3 from "../assets/images/product3.png";
-import pdt4 from "../assets/images/pdt4.jpeg";
+import product4 from "../assets/images/pdt4.jpeg";
 import product2 from "../assets/images/product2.png";
 import product5 from "../assets/images/product5.jpg";
-import arrow1 from "../assets/images/arrow1.png";
-import arrow2 from "../assets/images/arrow2.png";
-import arrow3 from "../assets/images/arrow3.png";
+import arrow from "../assets/images/arrow.png";
 
 
 function Services() {
@@ -25,13 +23,16 @@ function Services() {
     </div>
      <div className="images-content">
         <div className="arrow-img">
-          <img src={`${arrow1}`} alt="arrow1" />
+          <img src={`${arrow}`} alt="arrow1"/>
+          <span className="arrow-text">Aflevering af cykel fra kl. <strong>09:00</strong></span>
+        </div>
+        <div className="arrow-img">        
+          <img src={`${arrow}`} alt="arrow2" />  
+          <span className="arrow-text">Vi laver din cykel mens du er på job eller i skole</span>        
         </div>
         <div className="arrow-img">
-          <img src={`${arrow2}`} alt="arrow2" />
-        </div>
-        <div className="arrow-img">
-          <img src={`${arrow3}`} alt="arrow3" />
+          <img src={`${arrow}`} alt="arrow3" />
+          <span className="arrow-text">Afhentning af repareret cykel indtil kl. <strong>17.30</strong></span>
         </div>
       </div>
      
@@ -43,7 +44,7 @@ function Services() {
           <img src={`${product5}`} alt="product5" />
         </div>
         <div className="img-item">
-          <img src={`${pdt4}`} alt="product4" />
+          <img src={`${product4}`} alt="product4" />
         </div>
       </div>
       

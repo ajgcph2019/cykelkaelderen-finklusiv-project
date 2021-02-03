@@ -32,4 +32,3 @@ function Header() {
 }
 
 export default Header;
-//<span class="pull-left">Cykelkaelderen-Bicycle Shop</span>
