@@ -8,8 +8,8 @@ function Header() {
   return (
     <>
       <header>
-        <Navbar bg="pt-0 pb-0" expand="lg" sticky="top">
-          <Navbar.Brand href="#home" className="pb-0">
+        <Navbar expand="lg" sticky="top">
+          <Navbar.Brand href="#home" >
             <img src={logo} className="App-logo" alt="Cykelkaelderen-logo" />            
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav " />
