@@ -242,7 +242,8 @@ div.contact-container {
   display: flex;
 }
 
-.map {
+.map {  
+  border: 1px solid #474646;  
   flex-basis: 70%;
   flex-shrink: 0;
 }

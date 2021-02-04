@@ -19,7 +19,7 @@ function VisitUs() {
     
       <div className="contact-container" >           
         <div className="map-section">
-          <Map className="map"/>
+          <Map />
         </div>
         <div className="contact-section">          
             <div className="contact-info">
