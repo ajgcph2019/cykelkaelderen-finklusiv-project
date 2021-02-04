@@ -191,7 +191,6 @@ main {
 
 .arrow-img img {
   width: 250px;
-  /* height: 230px;  */
   padding: 15px;
   transform-origin: 30% 45%;
   transition: transform 5s, filter 3s ease-in-out;
@@ -202,7 +201,6 @@ main {
   margin-left: 20px;
   width: 65%;
   text-align: center;
-  /*font-weight: bold;*/
 }
 
 .arrow-img:hover img {
@@ -239,7 +237,7 @@ div.contact-container {
 }
 
 .map-section {
-  width: 75%;
+  width: 80%;
   padding-left: 5px;
   display: flex;
 }
@@ -250,15 +248,14 @@ div.contact-container {
 }
 
 .contact-section {
-  width: 25%;
-  margin: 20px;
-  padding-left: 20px;
+  margin: 30px;
   display: flex;
+  flex-direction: column; 
 }
 
 .contact-info {
   display: flex;
-  margin: 10px;
+  margin: 5px;  
 }
 
 .contact-info p {
@@ -336,9 +333,7 @@ a :hover {
     display: flex;
   }
   .contact-section {
-    width: 25%;
     margin: 15px;
-    padding-left: 20px;
   }
   .contact-info p {
     font-size: 14px;
@@ -366,9 +361,7 @@ a :hover {
     display: flex;
   }
   .contact-section {
-    width: 25%;
     margin: 15px;
-    padding-left: 20px;
   }
 }
 
@@ -378,15 +371,10 @@ a :hover {
     padding-left: 5px;
     padding-right: 5px;
     display: flex;
-  }
-  .contact-section {
-    width: 40%; /*35*/
-    margin: 20px;
-    padding-left: 20px;
-  }
-  .images-content{
+  }  
+  /*.images-content{
     flex-direction: column;
-  }
+  }*/
 }
 
 @media (min-width: 880px) {

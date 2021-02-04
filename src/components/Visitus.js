@@ -21,8 +21,7 @@ function VisitUs() {
         <div className="map-section">
           <Map className="map"/>
         </div>
-        <div className="contact-section">
-          <div>
+        <div className="contact-section">          
             <div className="contact-info">
               <div>
                 <GiHouse size="3em" color="brown"/> 
@@ -45,7 +44,7 @@ function VisitUs() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <p>facebook.com/Cykelkaelderen </p>
+                <p>facebook.com/Cykelkaelderen</p>
               </a>
             </div>
 
@@ -80,7 +79,7 @@ function VisitUs() {
               </div>              
               <p> 38176587</p>
             </div>
-          </div>
+          
       </div>
     </div>      
   </section>
