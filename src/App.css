@@ -21,11 +21,11 @@ p {
 }
 
 .App-logo {
-  height: 14vh;
+  height: 13vh;
   width: auto;
+  padding: 4px;
+  border-radius: 50%;
   pointer-events: none;
-  padding: 5px;
-  border-radius: 60%;
 }
 
 main {
@@ -238,24 +238,25 @@ div.contact-container {
 
 .map-section {
   width: 80%;
-  padding-left: 5px;
+  padding: 5px;
   display: flex;
 }
 
-.map {
+.map {   
   flex-basis: 70%;
   flex-shrink: 0;
+  border: 1px solid #494848;
 }
 
 .contact-section {
   margin: 30px;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 .contact-info {
   display: flex;
-  margin: 5px;  
+  margin: 5px;
 }
 
 .contact-info p {
@@ -328,9 +329,6 @@ a :hover {
 
   .map-section {
     width: 100%;
-    padding-left: 5px;
-    padding-right: 5px;
-    display: flex;
   }
   .contact-section {
     margin: 15px;
@@ -356,9 +354,6 @@ a :hover {
   }
   .map-section {
     width: 100%;
-    padding-left: 5px;
-    padding-right: 5px;
-    display: flex;
   }
   .contact-section {
     margin: 15px;
@@ -367,14 +362,8 @@ a :hover {
 
 @media screen and (max-width: 1050px) {
   .map-section {
-    width: 100%;
-    padding-left: 5px;
-    padding-right: 5px;
-    display: flex;
-  }  
-  /*.images-content{
-    flex-direction: column;
-  }*/
+    width: 100%;    
+  }
 }
 
 @media (min-width: 880px) {
